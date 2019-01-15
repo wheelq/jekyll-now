@@ -4,7 +4,7 @@ title: Hi!
 published: true
 ---
 
-This is a test
+This is a test. Siema
 
 ![_config.yml]({{ site.baseurl }}/images/config.png)
 
