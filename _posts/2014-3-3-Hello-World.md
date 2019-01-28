@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Raspberry Pi Zero W how to
+title: 'Melopero Raspberry Pi Zero W, How-to'
 published: true
 ---
 
-Finally! My very first Raspberry Pi Zero W has arrived!
+Finally! My very first [Raspberry Pi Zero W](https://amzn.to/2Urs28p){: target="_blank"} has arrived!
 
 ![](/uploads/img-20190128-135415.jpg)
 
-I went with the “Starter Kit”. Contents:
+I went with the [Melopero "Starter Kit”.](https://amzn.to/2Urs28p){: target="_blank"} This kit includes:
 
 * Raspberry Pi Zero W
 * Official case (with 3 covers and mini flexible flat cable)
@@ -25,6 +25,8 @@ I went with the “Starter Kit”. Contents:
 
 ![](/uploads/img-20190128-135449.jpg)
 
-Because I am still waiting for the USB Hub to arrive, I have used Logitech K400+ Keyboard with integrated touchpad:
+Because I am still waiting for the [USB Hub](APPROX USB 2.0 4 Port Hub for Tablets - Black)[&nbsp;(APPROX USB 2.0 4 Port Hub)](__notset__) to arrive, I have used Logitech [K400 Plus Wireless Touch Keyboard](https://amzn.to/2DEOiWA){: target="_blank"} with integrated touchpad:
 
-![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQYV2P4////fwAJ+wP9BUNFygAAAABJRU5ErkJggg==){: .cms-image-placeholder}
+![](/uploads/img-8981-2.JPG)
+
+![](/uploads/img-8982-2.JPG)
