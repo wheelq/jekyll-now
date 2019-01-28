@@ -15,7 +15,9 @@ Today it is time to install [Pi-hole](http://bit.ly/pi-hole-raspberry){: target=
 
 Lets get to work! First, check the IP of our raspberry pi:
 
-![](/uploads/img-20190128-144917.jpg)
+![](/upload/pi-config/img-20190128-144917.jpg)
+
+&nbsp;
 
 Write it down, we will need it later.
 
@@ -25,4 +27,4 @@ Now we have to enable SSH. Run:
 
 And the following screen should pop up:
 
-![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQYV2P4////fwAJ+wP9BUNFygAAAABJRU5ErkJggg==){: .cms-image-placeholder}
+&nbsp;
