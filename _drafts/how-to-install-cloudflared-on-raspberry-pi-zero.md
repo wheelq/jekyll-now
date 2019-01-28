@@ -36,4 +36,20 @@ Then create the systemd script by copying the following in to /lib/systemd/syste
 
 Enable the systemd service to run on startup, then start the service and check its status.
 
-sudo systemctl enable cloudflared sudo systemctl start cloudflared sudo systemctl status cloudflared
+sudo systemctl enable cloudflared
+
+sudo systemctl start cloudflared
+
+sudo systemctl status cloudflared
+
+Configuring DNS
+
+If you have gotten to this point, you now have a working DNS-over-HTTPS service. But unfortunately, it’s only running locally on the device. The next steps will cover how to implement the service for network-wide DNS lookups via PiHole
+
+pi@raspberrypi:/tmp $ grep PIHOLE\_DNS /etc/pihole/setupVars.conf<br>PIHOLE\_DNS\_1=127.0.0.1#53
+
+sudo systemctl restart cloudflared
+
+You may also be required to open this port in the firewall.
+
+A client device such as a laptop or phone can now be configured to use it as the primary DNS server. You can verify it is working correctly by visiting the internet.nl DNSSEC test service.
