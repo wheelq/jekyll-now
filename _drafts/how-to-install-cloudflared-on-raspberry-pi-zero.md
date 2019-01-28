@@ -18,6 +18,20 @@ j.mp/segmentation-fault-cloudflared-issues-38
 
 sudo useradd -s /usr/sbin/nologin -r -M cloudflared
 
+vi /etc/default/cloudflared
+
+&nbsp;This file contains the command-line options that get passed to cloudflared on startup.
+
+# Commandline args for cloudflared
+
+CLOUDFLARED\_OPTS=--port 5053 --upstream https://1.1.1.1/dns-query --upstream https://1.0.0.1/dns-query
+
+&nbsp;
+
+Update the permissions for the configuration file and cloudflared binary to allow access for the cloudflared user
+
+sudo chown cloudflared:cloudflared /etc/default/cloudflared sudo chown cloudflared:cloudflared /usr/local/bin/cloudflared
+
 &nbsp;
 
 &nbsp;
