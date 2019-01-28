@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Raspberry Pi Zero W, How-to'
+title: Raspberry Pi Zero W - First steps
 published: true
 ---
 
