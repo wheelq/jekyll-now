@@ -27,6 +27,10 @@ I went with the [Melopero "Starter Kit”.](https://amzn.to/2Urs28p){: target="_
 
 Because I am still waiting for the [USB Hub (APPROX USB 2.0 4 Port Hub)](https://amzn.to/2Ti3xu7){: target="_blank"}&nbsp;to arrive, I have used Logitech [K400 Plus Wireless Touch Keyboard](https://amzn.to/2DEOiWA){: target="_blank"} with integrated touchpad:
 
-![](/uploads/img-8981-2.JPG)
+![](/uploads/img-8982-2.JPG)All powered up and....
 
-![](/uploads/img-8982-2.JPG)
+![](/uploads/img-20190128-081636.jpg)
+
+It works! 😀
+
+Next: [Pi-hole](j.mp/pi-hole-raspberry){: target="_blank"} on Raspberry Pi Zero 🦹‍♂️
