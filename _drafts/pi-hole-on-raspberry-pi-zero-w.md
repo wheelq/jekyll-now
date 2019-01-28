@@ -15,4 +15,28 @@ Today it is time to install [Pi-hole](http://bit.ly/pi-hole-raspberry){: target=
 
 Lets get to work! First, check the IP of our raspberry pi:
 
+Once you’ve checked out on the new branches, &nbsp;you need to add this to /etc/pihole/pihole-FTL.conf(note you may need to create this file if it does not exist)
+
+BLOCKINGMODE=NXDOMAIN
+
+or
+
+BLOCKINGMODE=NULL
+
+depending on which method you prefer and then restart FTLDNS (pihole-FTL) to apply the change
+
+sudo service pihole-FTL restart
+
 ![](/uploads/img-20190128-144917.jpg)
+
+Once you’ve checked out on the new branches, &nbsp;you need to add this to /etc/pihole/pihole-FTL.conf(note you may need to create this file if it does not exist)
+
+BLOCKINGMODE=NXDOMAIN
+
+or
+
+BLOCKINGMODE=NULL
+
+depending on which method you prefer and then restart FTLDNS (pihole-FTL) to apply the change
+
+sudo service pihole-FTL restart
