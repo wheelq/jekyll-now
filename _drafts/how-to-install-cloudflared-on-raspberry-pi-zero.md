@@ -26,12 +26,14 @@ vi /etc/default/cloudflared
 
 CLOUDFLARED\_OPTS=--port 5053 --upstream https://1.1.1.1/dns-query --upstream https://1.0.0.1/dns-query
 
-&nbsp;
-
 Update the permissions for the configuration file and cloudflared binary to allow access for the cloudflared user
 
 sudo chown cloudflared:cloudflared /etc/default/cloudflared sudo chown cloudflared:cloudflared /usr/local/bin/cloudflared
 
-&nbsp;
+Then create the systemd script by copying the following in to /lib/systemd/system/cloudflared.service. This will control the running of the service and allow it to run on startup.
 
-&nbsp;
+[Unit] Description=cloudflared DNS over HTTPS proxy After=syslog.target network-online.target [Service] Type=simple User=cloudflared EnvironmentFile=/etc/default/cloudflared ExecStart=/usr/local/bin/cloudflared proxy-dns $CLOUDFLARED\_OPTS Restart=on-failure RestartSec=10 KillMode=process [Install] WantedBy=multi-user.target
+
+Enable the systemd service to run on startup, then start the service and check its status.
+
+sudo systemctl enable cloudflared sudo systemctl start cloudflared sudo systemctl status cloudflared
