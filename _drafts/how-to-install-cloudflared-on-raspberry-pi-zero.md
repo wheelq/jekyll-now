@@ -16,6 +16,8 @@ pi@raspberrypi:~ $ tar -xvzf cloudflared-stable-lin^C<br>pi@raspberrypi:~ $ cd /
 
 j.mp/segmentation-fault-cloudflared-issues-38
 
+sudo useradd -s /usr/sbin/nologin -r -M cloudflared
+
 &nbsp;
 
 &nbsp;
