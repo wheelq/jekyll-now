@@ -36,6 +36,8 @@ to check the IP of our Rasp:
 
 * So you can finally connect to your Rasp via SSH 🙌
 
+![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQYV2P4////fwAJ+wP9BUNFygAAAABJRU5ErkJggg==){: .cms-image-placeholder}![](/upload/pi-hole/_20x9-0x-R_at_x8.x9.55.png)
+
 That's all!
 
 *Source:&nbsp;[https://www.raspberrypi.org/documentation/remote-access/ssh/](https://www.raspberrypi.org/documentation/remote-access/ssh/){: target="_blank"}*
