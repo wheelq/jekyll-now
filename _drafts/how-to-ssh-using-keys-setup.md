@@ -16,6 +16,8 @@ Enable pubkey auth:
 
 &nbsp;sudo sed -i 's/^#PubkeyAuthentication/PubkeyAuthentication/g' /etc/ssh/sshd\_config
 
+sudo sed -i 's/^#AuthorizedKeysFile/AuthorizedKeysFile/g' /etc/ssh/sshd\_config
+
 restart ssh
 
 sudo service restart ssh
