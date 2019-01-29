@@ -12,6 +12,8 @@ mkdir -pm 700 ~/.ssh;
 
 chmod 600 ~/.ssh/authorized\_keys&gt;&gt;~/.ssh/authorized\_keys
 
+copy your pub key into that file.
+
 Enable pubkey auth:
 
 &nbsp;sudo sed -i 's/^#PubkeyAuthentication/PubkeyAuthentication/g' /etc/ssh/sshd\_config
