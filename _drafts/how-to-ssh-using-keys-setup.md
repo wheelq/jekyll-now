@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to SSH using keys setup
+title: How to setup SSH passwordless access using keys
 published: true
 ---
 
