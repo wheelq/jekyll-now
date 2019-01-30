@@ -30,7 +30,7 @@ sudo chown cloudflared:cloudflared /etc/default/cloudflared sudo chown cloudflar
 
 and add:
 
-CLOUDFLARED\_OPTS=–port 5053 –upstream https://1.1.1.1/dns-query –upstream https://1.0.0.1/dns-query
+CLOUDFLARED\_OPTS=–-port 5053 -–upstream https://1.1.1.1/dns-query –-upstream https://1.0.0.1/dns-query
 
 Then create the systemd script by copying the following in to /lib/systemd/system/cloudflared.service. This will control the running of the service and allow it to run on startup.
 
