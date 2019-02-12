@@ -83,4 +83,7 @@ exclude:
   - README.md
   - CNAME
 
-theme: jekyll-theme-minimal
+plugins:
+  - jekyll-remote-theme
+#theme: jekyll-theme-minimal
+remote_theme: benbalter/retlab
