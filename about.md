@@ -10,6 +10,6 @@ permalink: /about/
 
 ### Contact me
 
-[w](mailto:email@domain.com)heel.q@gmail.com
+[wheel.q@gmail.com](mailto:wheel.q@gmail.com)
 
 http://bit.ly/wiczynski\_linkedin
