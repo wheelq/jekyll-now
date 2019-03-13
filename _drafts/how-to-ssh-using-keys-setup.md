@@ -4,7 +4,7 @@ title: How to setup SSH passwordless access using keys
 published: true
 ---
 
-Because people forget how to properly set permissions and name authoirized\_keys files ;)
+Because people forget how to properly set permissions and name authorized\_keys files ;)
 
 cd ~
 
